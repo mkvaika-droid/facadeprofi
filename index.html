@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фасад Профи — Агентство фасадных решений | Бишкек</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <img src="images/logo.png" alt="Фасад Профи">
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="#services" data-translate="nav-services">Услуги</a>
+        <a href="#how" data-translate="nav-process">Процесс</a>
+        <a href="#projects" data-translate="nav-projects">Работы</a>
+        <a href="#about" data-translate="nav-about">О компании</a>
+        <a href="#contact" data-translate="nav-contact">Контакты</a>
+      </nav>
+      <div style="display:flex; align-items:center;">
+        <a href="https://wa.me/996556601099" class="btn btn--gold header__cta" data-translate="btn-whatsapp">Написать в WhatsApp</a>
+        <button class="lang-switcher" id="langSwitcher">
+          <span class="lang-switcher__current" id="langText">RU</span>
+        </button>
+      </div>
+      <button class="header__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="images/project1.jpg" alt="Современный фасад">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="eyebrow" data-translate="hero-location">Бишкек · Кыргызстан</div>
+        <h1 data-translate="hero-title">Ваш фасад — <span>первое впечатление</span> о вас</h1>
+        <p class="hero__lead" data-translate="hero-lead">Проектирование, монтаж и реставрация фасадов любой сложности. Замер и дизайн-проект — бесплатно.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--gold" data-translate="btn-measure">Получить бесплатный замер</a>
+          <a href="#projects" class="btn btn--ghost" data-translate="btn-works">Наши работы</a>
+        </div>
+      </div>
+    </div>
+    <a href="#experience" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+<section class="experience" id="experience">
+  <div class="container experience__inner">
+    <div class="experience__figure">
+      <div class="experience__circle">
+        <span class="experience__num">6<small>+</small></span>
+        <span class="experience__figlabel" data-translate="exp-figlabel">лет опыта</span>
+      </div>
+    </div>
+    <div class="experience__text">
+      <p class="section-eyebrow section-eyebrow--light" data-translate="exp-subtitle">/ Доверие через опыт</p>
+      <h2 class="section-title section-title--light" data-translate="exp-title">Опыт, который <span>внушает доверие</span></h2>
+      <p data-translate="exp-text">Более 6 лет мы проектируем, монтируем и утепляем фасады в Бишкеке — от частных домов до жилых комплексов. Каждый проект проходит полный цикл: от замера до сдачи объекта.</p>
+
+      <div class="experience__stats">
+        <div class="experience__stat">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="6" width="24" height="30" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M14 14H26M14 20H26M14 26H20" stroke="currentColor" stroke-width="1.8"/></svg>
+          <div><strong>80+</strong><span data-translate="stat-objects">Объектов сдано</span></div>
+        </div>
+        <div class="experience__stat">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.8"/><path d="M14 20L18 24L27 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div><strong>0 сом</strong><span data-translate="stat-measure">Замер и дизайн</span></div>
+        </div>
+        <div class="experience__stat">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="1.8"/><path d="M8 34c0-7 5.4-11.5 12-11.5S32 27 32 34" stroke="currentColor" stroke-width="1.8"/></svg>
+          <div><strong data-translate="stat-team-strong">Своя</strong><span data-translate="stat-team">Команда монтажников</span></div>
+        </div>
+        <div class="experience__stat">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 4 33 10V20C33 27.5 27.5 33.5 20 36C12.5 33.5 7 27.5 7 20V10L20 4Z" stroke="currentColor" stroke-width="1.8"/></svg>
+          <div><strong data-translate="stat-guarantee-strong">Гарантия</strong><span data-translate="stat-guarantee">По договору</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-eyebrow" data-translate="services-subtitle">Что мы делаем</div>
+      <h2 class="section-title" data-translate="services-title">Полный цикл фасадных работ</h2>
+      <p class="section-lead" data-translate="services-lead">От проекта до сдачи объекта — закрываем весь процесс одной командой, без лишних подрядчиков.</p>
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></div>
+          <h3 data-translate="service-design-title">Проектирование фасадов</h3>
+          <p data-translate="service-design-text">Разработка дизайн-проекта с учётом архитектуры здания и климатических условий Кыргызстана.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg></div>
+          <h3 data-translate="service-install-title">Монтаж и отделка</h3>
+          <p data-translate="service-install-text">Собственные бригады монтажников, соблюдение технологии и сроков на каждом этапе.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+          <h3 data-translate="service-insulation-title">Утепление</h3>
+          <p data-translate="service-insulation-text">Энергоэффективные решения, которые снижают расходы на отопление с первого сезона.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg></div>
+          <h3 data-translate="service-ventilated-title">Вентилируемые фасады</h3>
+          <p data-translate="service-ventilated-text">Керамогранит, HPL-панели и композит — долговечная облицовка с воздушным зазором.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></div>
+          <h3 data-translate="service-restoration-title">Реставрация</h3>
+          <p data-translate="service-restoration-text">Восстановление и обновление фасадов зданий с сохранением исторического облика.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
+          <h3 data-translate="service-consultation-title">Бесплатная консультация</h3>
+          <p data-translate="service-consultation-text">Поможем выбрать оптимальное решение для вашего бюджета и задач.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE WORK -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="how__grid">
+        <div class="how__photo">
+          <img src="images/how.jpg" alt="Рабочий процесс">
+          <div class="how__badge" data-translate="how-badge">Работаем<br>с 2019<br>года</div>
+        </div>
+        <div>
+          <div class="section-eyebrow" data-translate="how-subtitle">Процесс</div>
+          <h2 class="section-title" data-translate="how-title">Как мы работаем</h2>
+          <ol class="how__steps">
+            <li><div class="how__stepnum">01</div><div><h3 data-translate="how-step1-title">Консультация и замер</h3><p data-translate="how-step1-text">Приезжаем на объект, обсуждаем задачу и снимаем размеры — бесплатно</p></div></li>
+            <li><div class="how__stepnum">02</div><div><h3 data-translate="how-step2-title">Дизайн-проект</h3><p data-translate="how-step2-text">Разрабатываем визуализацию фасада с учётом ваших пожеланий</p></div></li>
+            <li><div class="how__stepnum">03</div><div><h3 data-translate="how-step3-title">Смета и договор</h3><p data-translate="how-step3-text">Фиксируем стоимость, материалы и сроки — без скрытых доплат</p></div></li>
+            <li><div class="how__stepnum">04</div><div><h3 data-translate="how-step4-title">Монтаж и отделка</h3><p data-translate="how-step4-text">Наша бригада выполняет работы точно в согласованные сроки</p></div></li>
+            <li><div class="how__stepnum">05</div><div><h3 data-translate="how-step5-title">Сдача объекта</h3><p data-translate="how-step5-text">Принимаете готовый результат и получаете гарантийные обязательства</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS CAROUSEL -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-eyebrow section-eyebrow--light" data-translate="projects-subtitle">Наши работы</div>
+      <h2 class="section-title section-title--light" data-translate="projects-title">Примеры реализованных проектов</h2>
+      <p class="section-lead" style="color: var(--muted);" data-translate="projects-lead">Каждый объект — результат точного расчёта, качественных материалов и опыта нашей команды.</p>
+      
+      <div class="carousel">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Previous">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        
+        <div class="carousel__viewport">
+          <div class="carousel__track">
+            <div class="project-card">
+              <img src="images/project1.jpg" alt="Жилой комплекс с колоннами">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-complex">Жилой комплекс</div>
+                <h3 data-translate="project1-title">Фасад с колоннами</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project2.jpg" alt="Частный дом с бассейном">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-house">Частный дом</div>
+                <h3 data-translate="project2-title">Современная резиденция</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project3.jpg" alt="Многоэтажный жилой комплекс">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-complex">Жилой комплекс</div>
+                <h3 data-translate="project3-title">Многоэтажка с подсветкой</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project4.jpg" alt="Частный дом">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-house">Частный дом</div>
+                <h3 data-translate="project4-title">Дом из натурального камня</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project5.jpg" alt="Белый дом с деревом">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-house">Частный дом</div>
+                <h3 data-translate="project5-title">Комбинированный фасад</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project6.jpg" alt="Дом с каменной кладкой">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-house">Частный дом</div>
+                <h3 data-translate="project6-title">Фасад из травертина</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project7.jpg" alt="Коммерческое здание">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-commercial">Коммерческий объект</div>
+                <h3 data-translate="project7-title">Здание с классическим фасадом</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project8.jpg" alt="Частный дом с террасой">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-house">Частный дом</div>
+                <h3 data-translate="project8-title">Дом с террасой и колоннами</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project9.jpg" alt="Многоэтажка с горами">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-complex">Жилой комплекс</div>
+                <h3 data-translate="project9-title">Многоэтажка у подножия гор</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project10.jpg" alt="Кофейня Асман">
+              <div class="project-card__info">
+                <div class="project-card__tag" data-translate="project-tag-commercial">Коммерческий объект</div>
+                <h3 data-translate="project10-title">Кофейня «Асман»</h3>
+                <p data-translate="city-bishkek">Бишкек</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel__btn carousel__btn--next" aria-label="Next">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+      
+      <div class="carousel__dots"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT + CTA -->
+  <section class="about-cta" id="about">
+    <div class="container">
+      <div class="about-cta__inner">
+        <div class="about-cta__content">
+          <div class="section-eyebrow section-eyebrow--light" data-translate="about-subtitle">О компании</div>
+          <h2 class="section-title section-title--light" data-translate="about-title">Команда, для которой фасад — <span>не последний этап</span></h2>
+          <div class="about-cta__signature">
+            <div class="about-cta__name">Актилек Муратбеков</div>
+            <div class="about-cta__role" data-translate="about-role">Руководитель проектов</div>
+          </div>
+          <div class="about-cta__cta">
+            <h3 data-translate="about-cta-title">Давайте построим <span>что-то великое</span> вместе</h3>
+            <p data-translate="about-cta-text">Есть идея проекта? Обсудим, как воплотить её в реальность.</p>
+            <a href="#contact" class="btn btn--gold" data-translate="btn-contact">Связаться</a>
+          </div>
+        </div>
+        <div class="about-cta__photo">
+          <img src="images/about.png" alt="Актилек Муратбеков — руководитель Фасад Профи">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why">
+    <div class="container">
+      <div class="section-eyebrow section-eyebrow--light" data-translate="why-subtitle">Почему мы</div>
+      <h2 class="section-title section-title--light" data-translate="why-title">Почему выбирают Фасад Профи</h2>
+      <div class="why__grid">
+        <div class="why-item">
+          <div class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <h3 data-translate="why-team-title">Опытная команда</h3>
+          <p data-translate="why-team-text">Свои монтажники и инженеры, без субподряда и посредников</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+          <h3 data-translate="why-quality-title">Качество работ</h3>
+          <p data-translate="why-quality-text">Соблюдение технологии на каждом этапе монтажа и отделки</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+          <h3 data-translate="why-deadline-title">Соблюдение сроков</h3>
+          <p data-translate="why-deadline-text">Фиксируем сроки в договоре и держим слово</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div>
+          <h3 data-translate="why-guarantee-title">Гарантия</h3>
+          <p data-translate="why-guarantee-text">Прозрачная смета и гарантийные обязательства по договору</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="container cta__inner">
+      <p class="section-eyebrow section-eyebrow--light" data-translate="cta-subtitle">/ Начнём</p>
+      <h2 class="section-title section-title--light" data-translate="cta-title">Готовы обсудить <span>ваш фасад?</span></h2>
+      <p class="cta__lead" data-translate="cta-lead">Оставьте заявку — свяжемся с вами и договоримся о бесплатном замере.</p>
+      <div class="cta__buttons">
+        <a href="tel:+996556601099" class="btn btn--ghost-light">
+          <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M6 2C4 2 2 4 2 6c0 9 7 16 16 16 2 0 4-2 4-4l-5-4-2 2c-2-1-4-3-5-5l2-2-4-5H6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          0556 601 099
+        </a>
+        <a href="https://wa.me/996556601099" target="_blank" class="btn btn--gold" data-translate="btn-whatsapp">Написать в WhatsApp</a>
+        <a href="https://instagram.com/fasadprofi2024" target="_blank" class="btn btn--ghost-light">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__col footer__col--contacts">
+          <div class="footer__contact">
+            <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M6 2C4 2 2 4 2 6c0 9 7 16 16 16 2 0 4-2 4-4l-5-4-2 2c-2-1-4-3-5-5l2-2-4-5H6Z" stroke="currentColor" stroke-width="1.6"/></svg>
+            <a href="tel:+996556601099">0556 601 099</a>
+          </div>
+          <div class="footer__contact">
+            <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M12 2 2 8v13h20V8L12 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 8l10 6 10-6" stroke="currentColor" stroke-width="1.6"/></svg>
+            <a href="mailto:aktilek_muratbekov@mail.ru">aktilek_muratbekov@mail.ru</a>
+          </div>
+          <div class="footer__contact">
+            <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M12 22s7-7.4 7-12.5A7 7 0 0 0 5 9.5C5 14.6 12 22 12 22Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
+            <span data-translate="footer-address">ул. Юнусалиева 28, Бишкек</span>
+          </div>
+        </div>
+        <div class="footer__col footer__col--brand">
+          <img src="images/logo.png" alt="Фасад Профи" class="footer__logo">
+          <div class="footer__social">
+            <a href="https://instagram.com/fasadprofi2024" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+            </a>
+            <a href="https://wa.me/996556601099" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 32 32" fill="currentColor" width="18" height="18"><path d="M16 2C8.3 2 2 8.3 2 16c0 2.6.7 5.1 2 7.3L2 30l6.9-1.8c2.1 1.2 4.6 1.8 7.1 1.8 7.7 0 14-6.3 14-14S23.7 2 16 2Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p data-translate="footer-copyright">© 2026 Фасад Профи · Агентство фасадных решений · Бишкек</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/996556601099" class="floating-wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <script>
+// Header scroll
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) header.classList.add('header--scrolled');
+  else header.classList.remove('header--scrolled');
+});
+
+// Mobile menu
+const burger = document.getElementById('burger');
+const nav = document.getElementById('nav');
+burger.addEventListener('click', () => {
+  burger.classList.toggle('header__burger--open');
+  nav.classList.toggle('header__nav--open');
+});
+document.querySelectorAll('.header__nav a').forEach(link => {
+  link.addEventListener('click', () => {
+    burger.classList.remove('header__burger--open');
+    nav.classList.remove('header__nav--open');
+  });
+});
+
+// Carousel
+const track = document.querySelector('.carousel__track');
+const cards = document.querySelectorAll('.project-card');
+const prevBtn = document.querySelector('.carousel__btn--prev');
+const nextBtn = document.querySelector('.carousel__btn--next');
+const dotsContainer = document.querySelector('.carousel__dots');
+let currentIndex = 0;
+let cardsPerView = 3;
+
+function updateCardsPerView() {
+  if (window.innerWidth <= 760) cardsPerView = 1;
+  else if (window.innerWidth <= 1024) cardsPerView = 2;
+  else cardsPerView = 3;
+}
+
+function createDots() {
+  dotsContainer.innerHTML = '';
+  const totalDots = Math.max(1, Math.ceil(cards.length / cardsPerView));
+  for (let i = 0; i < totalDots; i++) {
+    const dot = document.createElement('button');
+    dot.classList.add('carousel__dot');
+    if (i === 0) dot.classList.add('carousel__dot--active');
+    dot.addEventListener('click', () => goToSlide(i));
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function updateCarousel() {
+  const viewport = document.querySelector('.carousel__viewport');
+  const viewportWidth = viewport.offsetWidth;
+  const offset = currentIndex * viewportWidth;
+  track.style.transform = `translateX(-${offset}px)`;
+  document.querySelectorAll('.carousel__dot').forEach((dot, index) => {
+    dot.classList.toggle('carousel__dot--active', index === currentIndex);
+  });
+  const maxIndex = Math.max(0, Math.ceil(cards.length / cardsPerView) - 1);
+  prevBtn.disabled = currentIndex === 0;
+  nextBtn.disabled = currentIndex >= maxIndex;
+}
+
+function goToSlide(index) {
+  const maxIndex = Math.max(0, Math.ceil(cards.length / cardsPerView) - 1);
+  currentIndex = Math.max(0, Math.min(index, maxIndex));
+  updateCarousel();
+}
+
+prevBtn.addEventListener('click', () => {
+  if (currentIndex > 0) { currentIndex--; updateCarousel(); }
+});
+nextBtn.addEventListener('click', () => {
+  const maxIndex = Math.max(0, Math.ceil(cards.length / cardsPerView) - 1);
+  if (currentIndex < maxIndex) { currentIndex++; updateCarousel(); }
+});
+
+window.addEventListener('resize', () => {
+  updateCardsPerView();
+  createDots();
+  currentIndex = 0;
+  updateCarousel();
+});
+
+updateCardsPerView();
+createDots();
+updateCarousel();
+
+// Scroll animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.service-card, .project-card').forEach(el => observer.observe(el));
+
+// ===================== LANGUAGE SWITCHER =====================
+const translations = {
+  ru: {
+    'nav-services': 'Услуги',
+    'nav-process': 'Процесс',
+    'nav-projects': 'Работы',
+    'nav-about': 'О компании',
+    'nav-contact': 'Контакты',
+    'btn-whatsapp': 'Написать в WhatsApp',
+    'hero-location': 'Бишкек · Кыргызстан',
+    'hero-title': 'Ваш фасад — <span>первое впечатление</span> о вас',
+    'hero-lead': 'Проектирование, монтаж и реставрация фасадов любой сложности. Замер и дизайн-проект — бесплатно.',
+    'btn-measure': 'Получить бесплатный замер',
+    'btn-works': 'Наши работы',
+    'exp-figlabel': 'лет опыта',
+    'exp-subtitle': '/ Доверие через опыт',
+    'exp-title': 'Опыт, который <span>внушает доверие</span>',
+    'exp-text': 'Более 6 лет мы проектируем, монтируем и утепляем фасады в Бишкеке — от частных домов до жилых комплексов. Каждый проект проходит полный цикл: от замера до сдачи объекта.',
+    'stat-objects': 'Объектов сдано',
+    'stat-measure': 'Замер и дизайн',
+    'stat-team-strong': 'Своя',
+    'stat-team': 'Команда монтажников',
+    'stat-guarantee-strong': 'Гарантия',
+    'stat-guarantee': 'По договору',
+    'services-subtitle': 'Что мы делаем',
+    'services-title': 'Полный цикл фасадных работ',
+    'services-lead': 'От проекта до сдачи объекта — закрываем весь процесс одной командой, без лишних подрядчиков.',
+    'service-design-title': 'Проектирование фасадов',
+    'service-design-text': 'Разработка дизайн-проекта с учётом архитектуры здания и климатических условий Кыргызстана.',
+    'service-install-title': 'Монтаж и отделка',
+    'service-install-text': 'Собственные бригады монтажников, соблюдение технологии и сроков на каждом этапе.',
+    'service-insulation-title': 'Утепление',
+    'service-insulation-text': 'Энергоэффективные решения, которые снижают расходы на отопление с первого сезона.',
+    'service-ventilated-title': 'Вентилируемые фасады',
+    'service-ventilated-text': 'Керамогранит, HPL-панели и композит — долговечная облицовка с воздушным зазором.',
+    'service-restoration-title': 'Реставрация',
+    'service-restoration-text': 'Восстановление и обновление фасадов зданий с сохранением исторического облика.',
+    'service-consultation-title': 'Бесплатная консультация',
+    'service-consultation-text': 'Поможем выбрать оптимальное решение для вашего бюджета и задач.',
+    'how-badge': 'Работаем<br>с 2019<br>года',
+    'how-subtitle': 'Процесс',
+    'how-title': 'Как мы работаем',
+    'how-step1-title': 'Консультация и замер',
+    'how-step1-text': 'Приезжаем на объект, обсуждаем задачу и снимаем размеры — бесплатно',
+    'how-step2-title': 'Дизайн-проект',
+    'how-step2-text': 'Разрабатываем визуализацию фасада с учётом ваших пожеланий',
+    'how-step3-title': 'Смета и договор',
+    'how-step3-text': 'Фиксируем стоимость, материалы и сроки — без скрытых доплат',
+    'how-step4-title': 'Монтаж и отделка',
+    'how-step4-text': 'Наша бригада выполняет работы точно в согласованные сроки',
+    'how-step5-title': 'Сдача объекта',
+    'how-step5-text': 'Принимаете готовый результат и получаете гарантийные обязательства',
+    'projects-subtitle': 'Наши работы',
+    'projects-title': 'Примеры реализованных проектов',
+    'projects-lead': 'Каждый объект — результат точного расчёта, качественных материалов и опыта нашей команды.',
+    'project-tag-complex': 'Жилой комплекс',
+    'project-tag-house': 'Частный дом',
+    'project-tag-commercial': 'Коммерческий объект',
+    'project1-title': 'Фасад с колоннами',
+    'project2-title': 'Современная резиденция',
+    'project3-title': 'Многоэтажка с подсветкой',
+    'project4-title': 'Дом из натурального камня',
+    'project5-title': 'Комбинированный фасад',
+    'project6-title': 'Фасад из травертина',
+    'project7-title': 'Здание с классическим фасадом',
+    'project8-title': 'Дом с террасой и колоннами',
+    'project9-title': 'Многоэтажка у подножия гор',
+    'project10-title': 'Кофейня «Асман»',
+    'city-bishkek': 'Бишкек',
+    'about-subtitle': 'О компании',
+    'about-title': 'Команда, для которой фасад — <span>не последний этап</span>',
+    'about-role': 'Руководитель проектов',
+    'about-cta-title': 'Давайте построим <span>что-то великое</span> вместе',
+    'about-cta-text': 'Есть идея проекта? Обсудим, как воплотить её в реальность.',
+    'btn-contact': 'Связаться',
+    'why-subtitle': 'Почему мы',
+    'why-title': 'Почему выбирают Фасад Профи',
+    'why-team-title': 'Опытная команда',
+    'why-team-text': 'Свои монтажники и инженеры, без субподряда и посредников',
+    'why-quality-title': 'Качество работ',
+    'why-quality-text': 'Соблюдение технологии на каждом этапе монтажа и отделки',
+    'why-deadline-title': 'Соблюдение сроков',
+    'why-deadline-text': 'Фиксируем сроки в договоре и держим слово',
+    'why-guarantee-title': 'Гарантия',
+    'why-guarantee-text': 'Прозрачная смета и гарантийные обязательства по договору',
+    'cta-subtitle': '/ Начнём',
+    'cta-title': 'Готовы обсудить <span>ваш фасад?</span>',
+    'cta-lead': 'Оставьте заявку — свяжемся с вами и договоримся о бесплатном замере.',
+    'footer-address': 'ул. Юнусалиева 28, Бишкек',
+    'footer-copyright': '© 2026 Фасад Профи · Агентство фасадных решений · Бишкек'
+  },
+  ky: {
+    'nav-services': 'Кызматтар',
+    'nav-process': 'Процесс',
+    'nav-projects': 'Иштер',
+    'nav-about': 'Компания жөнүндө',
+    'nav-contact': 'Байланыш',
+    'btn-whatsapp': 'WhatsApp\'ка жазуу',
+    'hero-location': 'Бишкек · Кыргызстан',
+    'hero-title': 'Сиздин фасадыңыз — <span>сиз жөнүндө биринчи таасир</span>',
+    'hero-lead': 'Ар кандай татаалдуулуктагы фасаддарды долбоорлоо, орнотуу жана калыбына келтирүү. Өлчөө жана дизайн-долбоор — акысыз.',
+    'btn-measure': 'Акысыз өлчөө алуу',
+    'btn-works': 'Биздин иштер',
+    'exp-figlabel': 'жыл тажрыйба',
+    'exp-subtitle': '/ Тажрыйба аркылуу ишеним',
+    'exp-title': 'Ишеним жараткан <span>тажрыйба</span>',
+    'exp-text': '6 жылдан ашык Бишкекте жеке үйлөрдөн тартып турак жай комплекстерине чейин фасаддарды долбоорлоо, орнотуу жана жылуулук менен камсыздоо менен алектенебиз.',
+    'stat-objects': 'Объект тапшырылды',
+    'stat-measure': 'Өлчөө жана дизайн',
+    'stat-team-strong': 'Өзүбүздүн',
+    'stat-team': 'Орнотуучулар тобу',
+    'stat-guarantee-strong': 'Кепилдик',
+    'stat-guarantee': 'Келишим боюнча',
+    'services-subtitle': 'Биз эмне кылабыз',
+    'services-title': 'Фасад иштеринин толук цикли',
+    'services-lead': 'Долбоордон тартып объектти тапшырууга чейин — бүт процессти бир команда менен жабабыз.',
+    'service-design-title': 'Фасаддарды долбоорлоо',
+    'service-design-text': 'Имараттын архитектурасын жана Кыргызстандын климаттык шарттарын эске алуу менен дизайн-долбоорду иштеп чыгуу.',
+    'service-install-title': 'Орнотуу жана отделка',
+    'service-install-text': 'Өзүбүздүн орнотуучулар бригадалары, ар бир этапта технологияны жана мөөнөттөрдү сактоо.',
+    'service-insulation-title': 'Жылуулук менен камсыздоо',
+    'service-insulation-text': 'Биринчи сезондон тартып жылуулукка чыгымдарды азайткан энергоэффективдүү чечимдер.',
+    'service-ventilated-title': 'Вентиляцияланган фасаддар',
+    'service-ventilated-text': 'Керамогранит, HPL-панелдер жана композит — аба аралыгы менен узак мөөнөттүү каптама.',
+    'service-restoration-title': 'Реставрация',
+    'service-restoration-text': 'Тарыхый көрүнүшүн сактоо менен имараттардын фасаддарын калыбына келтирүү жана жаңыртуу.',
+    'service-consultation-title': 'Акысыз консультация',
+    'service-consultation-text': 'Бюджетиңиз жана тапшырмаңыз үчүн эң ылайыктуу чечимди тандоого жардам беребиз.',
+    'how-badge': '2019-жылдан<br>бери<br>иштейбиз',
+    'how-subtitle': 'Процесс',
+    'how-title': 'Биз кантип иштейбиз',
+    'how-step1-title': 'Консультация жана өлчөө',
+    'how-step1-text': 'Объектке келебиз, тапшырманы талкуулап, өлчөмдөрдү алабыз — акысыз',
+    'how-step2-title': 'Дизайн-долбоор',
+    'how-step2-text': 'Сиздин каалоолоруңузду эске алуу менен фасаддын визуалдаштыруусун иштеп чыгабыз',
+    'how-step3-title': 'Смета жана келишим',
+    'how-step3-text': 'Чыгымдарды, материалдарды жана мөөнөттөрдү бекитебиз — жашыруу төлөмсүз',
+    'how-step4-title': 'Орнотуу жана отделка',
+    'how-step4-text': 'Биздин бригада ишти макулдашылган мөөнөттө так аткарат',
+    'how-step5-title': 'Объектти тапшыруу',
+    'how-step5-text': 'Даяр натыйжаны кабыл аласыз жана кепилдик милдеттемелерди аласыз',
+    'projects-subtitle': 'Биздин иштер',
+    'projects-title': 'Ишке ашырылган объектилер',
+    'projects-lead': 'Ар бир объект — так эсептөөнүн, сапаттуу материалдардын жана биздин команданын тажрыйбасынын натыйжасы.',
+    'project-tag-complex': 'Турак жай комплекси',
+    'project-tag-house': 'Жеке үй',
+    'project-tag-commercial': 'Коммерциялык объект',
+    'project1-title': 'Колонналары бар фасад',
+    'project2-title': 'Заманбап резиденция',
+    'project3-title': 'Подсветкасы бар көп кабаттуу үй',
+    'project4-title': 'Табигый тастан жасалган үй',
+    'project5-title': 'Аралашма фасад',
+    'project6-title': 'Травертинден жасалган фасад',
+    'project7-title': 'Классикалык фасаддуу имарат',
+    'project8-title': 'Терраса жана колонналары бар үй',
+    'project9-title': 'Тоолордун этегиндеги көп кабаттуу үй',
+    'project10-title': '«Асман» кофейнясы',
+    'city-bishkek': 'Бишкек',
+    'about-subtitle': 'Компания жөнүндө',
+    'about-title': 'Фасад — акыркы этап эмес болгон команда',
+    'about-role': 'Долбоорлордун жетекчиси',
+    'about-cta-title': 'Келгиле, чогуу <span>улуу нерсени</span> курабыз',
+    'about-cta-text': 'Долбоор идеясы барбы? Аны ишке ашырууну талкуулайлы.',
+    'btn-contact': 'Байланышуу',
+    'why-subtitle': 'Эмне үчүн биз',
+    'why-title': 'Эмне үчүн Фасад Профи тандашат',
+    'why-team-title': 'Тажрыйбалуу команда',
+    'why-team-text': 'Өзүбүздүн орнотуучулар жана инженерлер, субподряд жана ортомчуларсыз',
+    'why-quality-title': 'Иштин сапаты',
+    'why-quality-text': 'Орнотуу жана отделканын ар бир этабында технологияны сактоо',
+    'why-deadline-title': 'Мөөнөттөрдү сактоо',
+    'why-deadline-text': 'Келишимде мөөнөттөрдү бекитебиз жана сөзүбүздө турабыз',
+    'why-guarantee-title': 'Кепилдик',
+    'why-guarantee-text': 'Ачык смета жана келишим боюнча кепилдик милдеттемелер',
+    'cta-subtitle': '/ Баштайлы',
+    'cta-title': 'Сиздин фасадыңызды талкуулоого <span>даярсызбы?</span>',
+    'cta-lead': 'Өтүнмө калтырыңыз — сиз менен байланышып, акысыз өлчөө жөнүндө макулдашабыз.',
+    'footer-address': 'Юнусалиев көч. 28, Бишкек',
+    'footer-copyright': '© 2026 Фасад Профи · Фасад чечимдери агенттиги · Бишкек'
+  }
+};
+
+let currentLang = 'ru';
+const langSwitcher = document.getElementById('langSwitcher');
+const langText = document.getElementById('langText');
+
+function translatePage(lang) {
+  currentLang = lang;
+  langText.textContent = lang.toUpperCase();
+  document.querySelectorAll('[data-translate]').forEach(el => {
+    const key = el.getAttribute('data-translate');
+    if (translations[lang][key]) {
+      el.innerHTML = translations[lang][key];
+    }
+  });
+  document.documentElement.lang = lang;
+  localStorage.setItem('siteLang', lang);
+}
+
+langSwitcher.addEventListener('click', () => {
+  const newLang = currentLang === 'ru' ? 'ky' : 'ru';
+  translatePage(newLang);
+});
+
+const savedLang = localStorage.getItem('siteLang');
+if (savedLang && savedLang !== 'ru') {
+  translatePage(savedLang);
+}
+</script>
+</body>
+</html>

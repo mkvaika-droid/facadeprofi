@@ -222,7 +222,7 @@
     <div class="container">
       <div class="hero__content">
         <div class="eyebrow" data-translate="hero-location">Бишкек · Кыргызстан</div>
-      <h1>🚀 ТЕСТ! Сайт обновлён!</h1>
+       <h1 data-translate="hero-title">Ваш фасад — <span>первое впечатление</span> о вас</h1>
         <p class="hero__lead" data-translate="hero-lead">Проектирование, монтаж и реставрация фасадов любой сложности. Замер и дизайн-проект — бесплатно.</p>
         <div class="hero__actions">
           <a href="#contact" class="btn btn--gold" data-translate="btn-measure">Получить бесплатный замер</a>
@@ -1040,5 +1040,20 @@
       updateMeta('ru');
     }
   </script>
+  // Принудительное добавление метаданных через JS
+var meta = document.createElement('meta');
+meta.name = "description";
+meta.content = "Фасад Профи — агентство фасадных решений в Бишкеке. Проектирование, монтаж, реставрация фасадов. Замер и дизайн-проект бесплатно. 6+ лет опыта.";
+document.head.appendChild(meta);
+
+var ogTitle = document.createElement('meta');
+ogTitle.setAttribute('property', 'og:title');
+ogTitle.content = "Фасад Профи — Агентство фасадных решений | Бишкек";
+document.head.appendChild(ogTitle);
+
+var ogDesc = document.createElement('meta');
+ogDesc.setAttribute('property', 'og:description');
+ogDesc.content = "Проектирование, монтаж и реставрация фасадов любой сложности в Бишкеке. Замер и дизайн-проект — бесплатно.";
+document.head.appendChild(ogDesc);
 </body>
 </html>
